@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RhythmWave | Feel the Music</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">August<span>Sounds</span></h1>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Artists</a></li>
+        <li><a href="#">Albums</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Feel the Beat. Live the Moment.</h2>
+      <p>Discover new artists, explore genres, and stream your favorite tracks anytime.</p>
+      <a href="#" class="btn">Start Listening</a>
+    </div>
+  </section>
+
+  <!-- Featured Albums -->
+  <section class="albums">
+    <h2>Featured Albums</h2>
+    <div class="album-grid">
+      <div class="album-card">
+        <a href="https://open.spotify.com/artist/7bXgB6jMjp9ATFy66eO08Z"><img src="https://picsum.photos/300?random=1" alt="Album 1"></a>
+        <h3>Midnight Echoes</h3>
+        <p>by Luna X</p>
+      </div>
+      <div class="album-card">
+        <img src="https://picsum.photos/300?random=2" alt="Album 2">
+        <h3>Solar Groove</h3>
+        <p>by The Spectrum</p>
+      </div>
+      <div class="album-card">
+        <img src="https://picsum.photos/300?random=3" alt="Album 3">
+        <h3>Neon Dreams</h3>
+        <p>by EchoWave</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 RhythmWave. All Rights Reserved.</p>
+    <div class="socials">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+    </div>
+  </footer>
+</body>
+</html>

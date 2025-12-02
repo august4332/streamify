@@ -1,0 +1,148 @@
+/* Reset some defaults */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    color: #fff;
+    background-color: #0e0e0e;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #fff;
+  }
+  
+  .logo span {
+    color: #ff0055;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ff0055;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: url('https://images.unsplash.com/photo-1511376777868-611b54f68947?auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  .hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    color: #ddd;
+  }
+  
+  .btn {
+    padding: 12px 30px;
+    background: #ff0055;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background: #ff3385;
+  }
+  
+  /* Albums Section */
+  .albums {
+    text-align: center;
+    padding: 80px 20px;
+    background: #111;
+  }
+  
+  .albums h2 {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+  }
+  
+  .album-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 0 60px;
+  }
+  
+  .album-card {
+    background: #1b1b1b;
+    border-radius: 15px;
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .album-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 4px 20px rgba(255, 0, 85, 0.2);
+  }
+  
+  .album-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  /* Footer */
+  footer {
+    background: #0b0b0b;
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+    color: #aaa;
+  }
+  
+  .socials a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ff0055;
+    font-weight: 500;
+  }
+  
+  .socials a:hover {
+    text-decoration: underline;
+  }
